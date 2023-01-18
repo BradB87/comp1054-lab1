@@ -1,0 +1,73 @@
+* {
+    color: #333;
+}
+
+header {
+    background-color: gold;
+}
+
+p {
+    text-align: center;
+    color: black;
+    background-color: #fff;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.wrapper {
+    background: url(../images/kerde-severin-NVD_32BBZFE-unsplash.jpg);
+    width: 100%;
+    margin: 0;
+}
+
+h1 {
+    background-color: gold;
+    justify-content: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+main>h2 {
+    background-color: gold;
+    text-align: center;
+    font-style: italic;
+}
+
+h3 {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+#image {
+    object-position: initial;
+    object-fit: none;
+    border: 2px double gray;
+    padding: 1em;
+
+}
+image+cite {
+    color: black;
+    font-weight: bold;
+}
+
+li:nth-child(odd) {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    list-style-type: square;
+}
+
+
+ul {
+    list-style: circle;
+    background-color: #fff;
+    font-style: italic;
+}
+
+
+
+    
+
+
+
