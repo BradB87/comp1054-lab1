@@ -1,7 +1,7 @@
 * {
-    color: #333;
+    color: #333; /* great use of inheritance */ 
 }
-
+/* 1. Element Selector */ 
 header {
     background-color: gold;
 }
@@ -13,7 +13,7 @@ p {
     font-style: italic;
     font-weight: bolder;
 }
-
+/* 2. Class Selector */ 
 .wrapper {
     background: url(../images/kerde-severin-NVD_32BBZFE-unsplash.jpg);
     width: 100%;
@@ -27,7 +27,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
 }
-
+/* 3. Combinator Selector */ 
 main>h2 {
     background-color: gold;
     text-align: center;
@@ -47,11 +47,12 @@ h3 {
     padding: 1em;
 
 }
+/* formatting - good pratice to leave one empty line between style rules and space between each part of a multi-part selector i.e. image + cite */ 
 image+cite {
     color: black;
     font-weight: bold;
 }
-
+/* 4. Pseudo Child Selector */ 
 li:nth-child(odd) {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
